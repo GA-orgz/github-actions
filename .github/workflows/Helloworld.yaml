@@ -8,3 +8,4 @@ jobs: # Same like pipeline in jenkins. A workflow can have mutiple jobs
         run: echo "Hello World"
       - name: step2 #stage2
         run: echo "Hello Github Actions"
+  
