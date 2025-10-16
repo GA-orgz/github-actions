@@ -1,8 +1,8 @@
 name: HelloWorld #Workflow name
 on: [push] #When we want to trigger the code
-jobs: # Same like pipeline in jenkins. A workflow can have mutiple jobs
+jobs: # Same like pipeline in jenkins. A workflow can have mutiple pipelines.
   hello: # name of the job/pipeline
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # where we want to run the pipeline, they are github runners managed by github in its data centers.
     steps: #stages
       - name: step1 #stage1
         run: echo "Hello World"
