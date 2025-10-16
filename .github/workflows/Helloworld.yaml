@@ -6,6 +6,6 @@ jobs: # Same like pipeline in jenkins. A workflow can have mutiple pipelines.
     steps: #stages
       - name: step1 #stage1
         run: echo "Hello World"
-      - name: step2 #stage2
+      - nam: step2 #stage2
         run: echo "Hello Github Actions"
   
